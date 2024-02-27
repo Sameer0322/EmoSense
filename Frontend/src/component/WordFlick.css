@@ -1,0 +1,17 @@
+/* WordFlick.css */
+
+.animated-text {
+  opacity: 0; /* Initially hide the text */
+  animation: fadeIn 1s ease-in-out forwards; /* Apply fade-in animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Optional: Add a slight upward motion */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

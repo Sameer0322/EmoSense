@@ -1,0 +1,32 @@
+
+.home-animation{
+  animation: slideInAndBounce 3s infinite ease-in-out 0s; /* Include the animation-delay in the animation property */
+  /* margin-left: 13%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+}
+
+@keyframes slideInAndBounce {
+  0% {
+    transform: translateY(0);
+  }
+  /* 60% {
+    transform: translateY(-50px);
+  } */
+  75% {
+    transform: translateY(-30px);
+  }
+  /* 90% {
+    transform: translateY(-15px);
+  } */
+  100% {
+    transform: translateY(0);
+  }
+}
+.shadow{
+  box-shadow: 2px 4px 8px 0 rgba(224, 13, 13, 0.2),
+}
+
+

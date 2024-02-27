@@ -1,0 +1,125 @@
+/* Home.css */
+
+/* Main Container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #f4f4f4; */
+  padding: 40px;
+  height: 120vh;
+}
+
+/* Header Content */
+.header-content {
+  text-align: center;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+/* Logo Container */
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Main Logo */
+.logo-main {
+  height: 150px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  animation: rotateSlow 8s linear infinite;
+}
+
+/* Sub Logo */
+.logo-sub {
+  height: 80px;
+  /* No animation for sub logo */
+}
+
+
+/* Main Text */
+.main-text {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.5;
+  animation: fadeIn 1s ease-in-out;
+  width: 60%;
+}
+
+/* Sub Text */
+.sub-text {
+  color: #666;
+  font-size: 14px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Action Buttons Section */
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Action Image */
+.action-image {
+  height: 150px;
+  animation: slideInFromLeft 1s ease-in-out;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Buttons */
+.button {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+
+/* Sign-In Button */
+.sign-in {
+  background-color: rgb(57, 89, 233);
+  width: 9rem;
+}
+
+/* Sign-Up Button */
+.sign-up {
+  background-color: rgb(57, 89, 233);
+  width: 9rem;
+
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInFromLeft {
+  0% { opacity: 0; transform: translateX(-50px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes rotateSlow {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.action-image{
+  height: 15rem;
+
+}

@@ -1,0 +1,7 @@
+npm i react-google-charts
+
+npm i @headlessui/react
+
+npm i react-datepicker
+
+ npm i react-router-dom 

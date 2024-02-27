@@ -1,0 +1,143 @@
+/* Footer styles */
+footer {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(135deg, #2980b9, #2c3e50); /* Gradient background */
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  /* Ensure the footer has a defined height */
+  height: 200px; /* Adjust as needed */
+  /* Other footer styles... */
+}
+
+/* Social icons and menu styles */
+footer .social_icon,
+footer .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+footer .social_icon li,
+footer .menu li {
+  list-style: none;
+}
+
+footer .social_icon li a {
+  font-size: 2em;
+  color: #e74c4c;
+  margin: 0 10px;
+  display: inline-block;
+  transition: transform 0.3s ease; /* Smoother transition */
+}
+
+footer .social_icon li a:hover {
+  transform: scale(1.2); /* Larger size on hover */
+  color: #ecf0f1;
+}
+
+footer .menu {
+  /* Ensure all menu items are in one line */
+  white-space: nowrap;
+}
+
+footer .menu li {
+  margin: 0 10px;
+}
+
+footer .menu li a {
+  font-size: 1.2em;
+  color: #ecf0f1;
+  transition: opacity 0.3s ease; /* Smoother transition */
+  text-decoration: none;
+  opacity: 0.75;
+  /* Ensure all menu items stay in one line */
+  display: inline-block;
+}
+
+footer .menu li a:hover {
+  opacity: 1;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); /* Text shadow on hover */
+}
+
+/* Copyright text styles */
+.copyright {
+  color: white;
+}
+
+/* Wave and animation styles */
+footer .wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px; /* Adjust height to match footer height */
+  background: url(https://i.ibb.co/rZt4Nhg/wave.png);
+  background-size: 1000px 80px; /* Adjust to match image dimensions */
+}
+
+footer .wave#wave1 {
+  z-index: 1000;
+  opacity: 0.8;
+  bottom: -5px;
+  animation: animateWave1 8s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite; /* Use a custom cubic-bezier for wavy effect */
+}
+
+footer .wave#wave2 {
+  z-index: 999;
+  opacity: 0.6;
+  bottom: 0;
+  animation: animateWave2 10s cubic-bezier(0.47, 0.03, 0.52, 0.96) infinite; /* Use a different cubic-bezier for variation */
+}
+
+footer .wave#wave3 {
+  z-index: 998;
+  opacity: 0.7;
+  bottom: 10px;
+  animation: animateWave3 12s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite; /* Use a different cubic-bezier */
+}
+
+/* Keyframes animation for wave#wave1 */
+@keyframes animateWave1 {
+  0% {
+    transform: translateY(15px); /* Initial wave position */
+  }
+  50% {
+    transform: translateY(-15px); /* Peak of the wave */
+  }
+  100% {
+    transform: translateY(15px); /* Return to initial position */
+  }
+}
+
+/* Keyframes animation for wave#wave2 */
+@keyframes animateWave2 {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+/* Keyframes animation for wave#wave3 */
+@keyframes animateWave3 {
+  0% {
+    transform: translateY(10px); /* Initial wave position */
+  }
+  50% {
+    transform: translateY(-10px); /* Peak of the wave */
+  }
+  100% {
+    transform: translateY(10px); /* Return to initial position */
+  }
+}

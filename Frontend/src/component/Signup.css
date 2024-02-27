@@ -1,0 +1,16 @@
+.borderr{
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.img{
+  height: 30rem;
+  width: 80rem;
+  margin-top: 2rem;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

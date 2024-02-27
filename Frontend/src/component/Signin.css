@@ -1,0 +1,58 @@
+  
+  .image-to-slide-and-bounce {
+    animation: slideInAndBounce 3s infinite ease-in-out 0s; /* Include the animation-delay in the animation property */
+    margin-left: 13%;
+  }
+  
+  @keyframes slideInAndBounce {
+    0% {
+      transform: translateY(0);
+    }
+    /* 60% {
+      transform: translateY(-50px);
+    } */
+    75% {
+      transform: translateY(-30px);
+    }
+    /* 90% {
+      transform: translateY(-15px);
+    } */
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+
+  .image-to-slide-in {
+    margin-left: 42%;
+    animation: slideInFromLeft 2s ease-in-out forwards; /* Adjust the duration and timing function as needed */
+  }
+  
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  .borderr{
+    border: 2px solid black;
+    padding: 2rem;
+    border-radius: 10px;
+  }
+
+
+
+
+
+
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
