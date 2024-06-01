@@ -25,7 +25,7 @@ The project is organized into several key sections:
 6. **Deployment**
    - Implementing the system architecture for real-time data capture and analysis.
 
-## Contribut0rs
+## Contributors
 - Kushal Gupta 
 - Sahil Panjwani 
 - Sameer Saxena
