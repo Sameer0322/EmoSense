@@ -10,6 +10,10 @@ The Engagement Analyzer is a sophisticated machine-learning project designed to 
 - **Real-Time Feedback Mechanism**: Provides immediate insights into students' attentiveness and engagement levels.
 - **Gesture Recognition Technology**: Captures and interprets students' body language and non-verbal cues using OpenCV and other relevant technologies.
 
+## Report
+[Click Here](https://drive.google.com/file/d/1z4oYlEBNVnlumL3UxwK4L6uDL9V8b4sR/view?usp=sharing) to view the complete report.
+
+
 ## Project Structure
 The project is organized into several key sections:
 1. **Data Set Preparation**
@@ -31,6 +35,4 @@ The project is organized into several key sections:
 - Sameer Saxena
 - Satyam Trivedi
 - Shubham Shukla
-
-## Sample
 
