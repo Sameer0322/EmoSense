@@ -1,4 +1,4 @@
-# EmoSense
+# EmoSense - An Engagement Analyzer
 
 ## Introduction
 The Engagement Analyzer is a sophisticated machine-learning project designed to evaluate students' focus and involvement by decoding their body language cues throughout lectures. This tool provides educators with invaluable insights, enabling real-time adjustments to teaching methodologies and fostering a dynamic and inclusive educational environment.
