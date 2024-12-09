@@ -4,7 +4,6 @@
 The Engagement Analyzer is a sophisticated machine-learning project designed to evaluate students' focus and involvement by decoding their body language cues throughout lectures. This tool provides educators with invaluable insights, enabling real-time adjustments to teaching methodologies and fostering a dynamic and inclusive educational environment.
 
 ## Features
-- **Core Node.js Development**: Learn and apply essential Node.js concepts to build backend features.
 - **RESTful API Development**: Assist in developing simple RESTful APIs.
 - **MongoDB Integration**: Work with MongoDB to store and retrieve application data.
 - **Real-Time Feedback Mechanism**: Provides immediate insights into students' attentiveness and engagement levels.
